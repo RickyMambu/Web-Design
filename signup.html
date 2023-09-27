@@ -1,0 +1,103 @@
+<html>
+    <head>
+        <title>Sign Up</title>
+        <style>
+            body{
+                font-family: sans-serif;
+                background-image: url(https://www.unklab.ac.id/wp-content/uploads/2022/11/20200209_152248-1024x768.jpg);
+                background-size: 1500px;
+            }
+            
+            h1{
+                text-align: center;
+                font-weight: 300;
+            }
+            
+            .tulisan_login{
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 30;
+                font-weight: 300;
+            }
+            
+            .kotak_login{
+                width: 400px;
+                background: white;
+                margin: 50px auto;
+                padding: 20px 20px;
+            }
+            
+            label{
+                font-size: 11pt;
+                font-weight: bold;
+            }
+            
+            .form_login{
+                box-sizing : border-box;
+                width: 100%;
+                padding: 10px;
+                font-size: 11pt;
+                margin-bottom: 20px;
+            }
+            
+            .tombol_login{
+                background: #46de4b;
+                color: white;
+                font-size: 11pt;
+                width: 100%;
+                border: none;
+                border-radius: 3px;
+                padding: 10px 20px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="kotak_login">
+            <p class="tulisan_login">SIGN UP</p>
+            <form>
+
+                <label>First Name</label>
+                <input type="text" name="first_name"  class="form_login" placeholder="First Name" >
+
+                <label>Last Name</label>
+                <input type="text" name="last_name"  class="form_login" placeholder="Last Name">
+
+                <label>Date of Birth</label>
+                <input type="date" name="birthday" class="form_login" placeholder="Last Name">
+
+                <label>Age</label>
+                <input type="number" name="age" class="form_login">
+
+                <label>Address</label>
+                <input type="text" name="Address" class="form_login" placeholder="Full Address">
+
+                <label>Gender</label>
+                <br>
+                <input type = "radio" name = "Male" value = "male"> Male
+                <input type = "radio" name = "Female" value = "female"> Female
+                <br>
+
+                <label><br> Nationality</label>
+                <input type="text" name="password" class="form_login" placeholder="Nationality">
+                    
+                <label><br>Username</label>
+                <input type="text" name="username" class="form_login" placeholder="Username atau email ..">
+    
+                <label>Password</label>
+                <input type="text" name="password" class="form_login" placeholder="Password ..">
+
+                <label> Confirm Password</label>
+                <input type="text" name="password" class="form_login" placeholder=" Confirm Password ..">
+    
+                <br/>
+            <form action="login.html" method="post">
+                <br>
+                <input type="submit" class="tombol_login" value="SIGN UP">
+            </form>
+
+            </form>
+        </div>
+    </body>
+</html
