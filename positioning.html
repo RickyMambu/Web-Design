@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Header</title>
+    <style>
+        body {
+            background-color: #333; /* Latar belakang lebih gelap */
+            background-image:  url(https://www.unklab.ac.id/wp-content/uploads/2022/11/20200209_152248-1024x768.jpg);
+            background-size: 1300px;
+            opacity: 1;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 5%;
+        }
+
+        .header {
+            display: flex;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            background-color: rgba(0, 0, 0, 0.7); /* Latar belakang kontainer lebih gelap */
+        }
+
+        .left-box {
+            flex: 0.5;
+            margin-right: 20px;
+            size: 50px; /* Anda mungkin ingin menggantinya dengan width: 50px; */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .left-box img {
+            width: 50%;
+
+        }
+
+        .info {
+            flex: 0.7; /* Perbesar kolom informasi */
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .info h2, .info p {
+            color: white;
+        }
+
+        .social-buttons {
+            margin-top: 20px;
+        }
+
+        .social-button {
+            display: inline-block;
+            margin-right: 10px;
+            background-color: black /* Warna latar belakang tombol LinkedIn */;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .social-button:hover {
+            background-color: white; /* Warna latar belakang saat hover */
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="left-box">
+        <img src="https://media.neliti.com/media/organisations/logo-None-universitas-klabat-0ede7ae5.png" alt="abc">
+        <p>Welcome to Universitas Klabat</p>
+    </div>
+    <div class="info">
+        <h2><strong>About Us</strong></h2>
+        <p>Ini adalah tempat untuk menambahkan teks informasi tambahan, deskripsi, atau konten lain yang Anda inginkan. Anda dapat menyesuaikan teks dan konten informasi sesuai kebutuhan Anda.</p>
+        <h2><strong>Contact Us</strong></h2>
+        
+        <!-- Logo Sosial Media -->
+        <div class="social-buttons">
+            <a class="social-button" href="https://www.instagram.com/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png" alt="Instagram" width="30">
+            </a>
+            <a class="social-button" href="https://www.whatsapp.com/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/897px-WhatsApp.svg.png" alt="WhatsApp" width="30">
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
